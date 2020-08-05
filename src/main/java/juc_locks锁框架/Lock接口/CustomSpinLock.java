@@ -2,6 +2,7 @@ package juc_locks锁框架.Lock接口;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;
+import java.util.concurrent.locks.Lock;
 
 /**
  * 〈自定义自旋锁〉

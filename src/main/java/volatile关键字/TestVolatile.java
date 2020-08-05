@@ -25,7 +25,6 @@ public class TestVolatile implements Runnable {
         TestVolatile t = new TestVolatile();
         new Thread(t).start();
         while (true){
-
             if(t.flag){
                 System.out.println("==================");
                 break;
